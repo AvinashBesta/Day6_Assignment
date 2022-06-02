@@ -1,0 +1,27 @@
+ADI@DESKTOP-QOAUI48 MINGW64 ~/sam2 (master)
+$ bash sam5.sh
+Enter a number
+5
+120
+
+
+Nano code
+
+echo "Enter a number"
+read num
+
+fact=1
+
+while [ $num -gt 1 ]
+do
+  fact=$((fact * num))  #fact = fact * num
+  num=$((num - 1))      #num = num - 1
+done
+
+echo $fact
+
+
+
+
+
+
